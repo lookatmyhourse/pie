@@ -16,3 +16,5 @@
 - minimization of a function / basinhopping and sympy 
 
 - code organizer. How to deal with the increasing number of codes from the perspective of organization and sorting. 
+
+- scientific software 
