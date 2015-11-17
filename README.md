@@ -14,3 +14,5 @@
 - double_pendulum.py 
 
 - minimization of a function / basinhopping and sympy 
+
+- code organizer. How to deal with the incresing number of codes from the perspective of organization and sorting. 
