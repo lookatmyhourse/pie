@@ -1,5 +1,5 @@
 ####A few Ipython additions  
-- {####Extending the 'logging' mode
+- ####Extending the 'logging' mode
 Ipython has a logger function; enable it by uncommenting the following lines in the `ipythoon_config.py` file 
 ```python
 # The date format used by logging formatters for %(asctime)s
@@ -17,4 +17,4 @@ from time import strftime
 iip=get_ipython()
 iip.logger.log_write(u"# new sesstion " + strftime('%D %H:%M:%S')+ "====================="+"\n")
 ```
-}
+
