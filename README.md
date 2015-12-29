@@ -1,6 +1,6 @@
-####:) 
-###Project 'logger'
-I am an Ipython user. It happens often that code written in the interactive session does not make if to script form. This leads to the problem of forgetting what I was doing two weeks ago. Ipython has a logger function; enable it by uncommenting the following lines in the `ipythoon_config.py` file 
+####A few Ipython additions  
+####Extending the 'logging' mode
+Ipython has a logger function; enable it by uncommenting the following lines in the `ipythoon_config.py` file 
 ```python
 # The date format used by logging formatters for %(asctime)s
 c.TerminalIPythonApp.log_datefmt = '%Y-%m-%d %H:%M:%S'
@@ -10,7 +10,7 @@ c.TerminalInteractiveShell.logfile = '/home/sweethome/.mylog'
 c.TerminalInteractiveShell.logappend = '/home/mnost/.ipython/profile_default/mylog'
 ```
 
-Distinguish each session adding personalized messages: add lines to a `startup_01.py` file placed in the `startup` folder. 
+To distinguish each session, add the following lines to a `startup_01.py` file placed in the `startup` folder. 
 
 ```python
 from time import strftime
