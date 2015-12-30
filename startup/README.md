@@ -1,4 +1,4 @@
-######Startup py files
+#####Startup py files
 
 Ipytho loads numbered .py files in the `startup` folder automatically.
 A few py files contain functions are given with functions extend the common usage of existing methods.
