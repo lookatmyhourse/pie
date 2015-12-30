@@ -18,5 +18,5 @@ iip=get_ipython()
 iip.logger.log_write(u"# new sesstion " + strftime('%D %H:%M:%S')+ "====================="+"\n")
 ```
 
-#####Adding a few methods to the `startup` folder 
+#####Adding a few methods to py files in `startup` folder 
 
