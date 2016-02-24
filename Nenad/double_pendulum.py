@@ -103,7 +103,7 @@ class DoublePendulum:
 
 #------------------------------------------------------------
 # set up initial state and global variables
-pendulum = DoublePendulum([180., 0.0, -20., 0.0])
+pendulum = DoublePendulum([200,0,0,0])
 dt = 1./30 # 30 fps
 
 #------------------------------------------------------------
