@@ -34,8 +34,7 @@ class search_tools():
 
 	def find_index_only(self,what,from_where):
 		"""
-		returns only the index of the occurance of 
-		"what" in the whole readline generated array of string lists 
+		returns only the index of the occurance of "what" in the whole readline generated array of string lists 
 		"""
 		s=[]
 		for i in range(0,len(from_where)):
@@ -70,6 +69,7 @@ class search_tools():
 				t+=1
 		return t
 
+#d[findall_with_index('RELIABILITY FACTORS FOR',d)[-1][0]:findall_with_index('RELIABILITY FACTORS FOR',d)[-1][0]+8]
 #------------------------------------------------------------------------------
 
 class analyze():
@@ -144,6 +144,7 @@ class analyze():
 		np.savetxt(f,a,fmt='%10.7f')
 		#np.savetxt(f,a,fmt='%10.7f',header=ahead)
 		f.close()
+#	def results_to_file_R_Chi_Bragg_Rf():
 		#global reliability of the whole fit 
 		r1=search_tools().grep_index('=> Conventional Rietveld',d,1)
 		r2=search_tools().grep_index('RELIABILITY FACTORS FOR',d,6)
@@ -852,6 +853,19 @@ def profile_parameters(c0,c1,c2,c2c,c3):
 
 #------------------------------------------------
 # run_fp2k
+#def run_fp2k(run_what_pcr,run_what_dat):
+#	"""
+#	"""
+#	#run_this="fp2k "+str(run_what_pcr)+" "+str(run_what_dat)
+#	run_this="fp2k "+str(run_what_pcr)+" "+str(run_what_dat)+" >> log"
+##	run_this="fp2k "+str(run_what_pcr)+" "+str(run_what_dat)
+##	run_this="fp2k "+str(run_what_pcr)+" "+str(run_what_dat)#+" "+"log"
+#	a=subprocess.Popen(run_this, shell=True,stdout=None)
+#	
+#	
+#	a.wait()
+#	#print 'done!'
+
 
 def run_fp2k(pcr,dat):
 	process=subprocess.Popen(['fp2k',pcr,dat,'log'],stdout=subprocess.PIPE)
@@ -1094,13 +1108,25 @@ r=read_step_and_separate(d)
 #  (filename, codeword,   values,     code)
 
 
-result_folder=c3.strip()[:-5]+'_'+c2.strip()[:-4]
+#result_folder=c3.strip()[:-5]+'_'+c2.strip()[:-4]
+if os.path.isdir('_refinements')==False:
+	os.mkdir('_refinements')
+
+result_folder='./_refinements/'+c3.strip()[:-5]+'_'+c2.strip()[:-4]
 
 #os.mkdir(c3.strip()[:-5])	# make a folder of "control_file_01"
 
 #copy_file_no_dirs_to_dir(c3.strip()[:-5])		# NO NEED TO MAKE DIR SINCE shutil.copytree makes one
 #os.chdir(c3.strip()[:-5])	# navigate to this "control_file_01" folder
-copy_file_no_dirs_to_dir(result_folder)
+
+# Copy ONLY the pcr,ctrl, irf (if exists) and the CURRENT DATAFILE to the "redult_folfer"
+#copy_file_no_dirs_to_dir(result_folder)
+os.mkdir(result_folder)
+shutil.copy(c1,result_folder)
+shutil.copy(c2,result_folder)
+shutil.copy(c3,result_folder)
+[shutil.copy(i,result_folder) for i in os.listdir(os.getcwd()) if i.split('.')[-1]=='irf']
+
 os.chdir(result_folder)
 
 # now we have all the *pcr, dat, irf ,ctrl file in subfolder "control_file_01" 
