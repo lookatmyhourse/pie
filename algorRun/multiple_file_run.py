@@ -1,4 +1,8 @@
-import os,shutil,subprocess
+#! /usr/bin/env python
+
+import os,sys,shutil,subprocess
+#import re, os, sys, shutil, subprocess, time
+#import numpy as np
 
 #dat=os.listdir('./_data_files/')
 #pcr=[i for i in os.listdir(os.getcwd()) if i.split('.')[-1]=='pcr']
@@ -11,6 +15,7 @@ import os,shutil,subprocess
 #	a=subprocess.Popen(run_this,shell=True,stdout=None)
 #a.wait()
 #[os.remove(i) for i in dat]
+#n=1
 
 def run_multiple_files(n):
 	"""
@@ -39,3 +44,10 @@ def run_multiple_files(n):
 			a.wait()
 			c=0
 	[os.remove(i) for i in dat]
+
+
+n=sys.argv[1]
+
+run_multiple_files(n)
+
+
