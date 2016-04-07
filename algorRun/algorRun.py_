@@ -615,28 +615,6 @@ def read_step_and_separate(d):
 		#take the c2 - c5 for each step
 		r.append(d[d.index(mm):d.index(mm)+5])
 	return r
-
-def scale_it_up(c0):
-	chi2_line='! Current global Chi2 '    
-	# the aboe line has problems when the string contains parentesis or dot 
-	# it causes problems for the search_tools().find_index_only method!
-	f=open(c0)
-	lines=f.readlines()  #*.pcr
-	f.close()
-
-	i=search_tools().find_index_only(chi2_line,lines)
-
-	pre=lines[ : i[0]] 
-	new_chi2_line='! Current global Chi2 (Bragg contrib.) =      1000000000 \n'
-	post=lines[i[0]+1: ]
-
-	f1= open(c0,'w')
-	f1.writelines(pre)
-	f1.writelines(new_chi2_line)
-	f1.writelines(post)
-	f1.close()
-	
-
 #-------------------
 #the pcrEdit for conttrol_file_scheme_2.ctrl
 def profile_parameters(c0,c1,c2,c2c,c3):
@@ -1175,11 +1153,6 @@ for ii in r: 			# for all elements of the r  ii is then one step
 				atomic_parameters().change_Zpos(c1,aa[:,i][1],aa[:,i][2],aa[:,i][3])
 			elif aa[:,i][1].find('Zero') >=0 or aa[:,i][1].find('SyCos') >=0 or aa[:,i][1].find('SySin') >=0:
 				displacement_parameters().displacement(c1,aa[:,i][1],aa[:,i][2],aa[:,i][3])
-	
-			elif aa[:,i][1].find('Scale') >=0:
-				scale_it_up(c1)
-				profile_parameters(c1,aa[:,i][0], aa[:,i][1], aa[:,i][2], aa[:,i][3]) #	
-
 			else:
 				profile_parameters(c1,aa[:,i][0], aa[:,i][1], aa[:,i][2], aa[:,i][3]) #	
 
