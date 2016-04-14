@@ -79,6 +79,9 @@ df=pa.DataFrame()
 row_name=f.name
 json_fname=f.name+'.json'
 for m in range(0,len(d)):
+	#print d
+	#print d[m]
+	#print m
 	col_name_1 = d[m].split()[0].split('-')[0]+ '-' +d[m].split()[0].split('-')[1]
 	col_name_1_err = col_name_1+'_err'
 	val_err_1 = clean_std_formatting(d[m].split()[2])
