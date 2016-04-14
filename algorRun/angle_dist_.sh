@@ -30,7 +30,7 @@ d=`grep 'Atm-1.*Atm-2.*Atm-3' *.dis | awk '{print " "$6" "$9" "$12}' > distances
 
 # run the python code to extract relevant data 
 # and to generate a json database 
-python /bin/py_classes/angle_dist_.py $a_d_filename
+python /home/mnost/Documents/github/pie/algorRun/angle_dist_.py $a_d_filename
 
 # remove temporary files/ cleanup 
 `rm angle.txt distances.txt ab.txt $a_d_filename`
