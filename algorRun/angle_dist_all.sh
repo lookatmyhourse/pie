@@ -26,9 +26,7 @@ starting_dir=`pwd`
 to_cd(){ cd "$1"; }   # when writing a bash function this is equal to
 to_cd(){
 cd "$1"
-
 angle_dist_.sh
-
 cd $starting_dir
 }
 
@@ -40,10 +38,14 @@ cd $starting_dir
 step_number=$1 
 
 # find all *dis files for a certain step / step_folder
-f=`find . -regextype posix-egrep -regex "(.*$step_number.*\.*.dis)"`
+#f=`find . -regextype posix-egrep -regex "(.*$step_number.*\.*.dis)"`
+#`find . -iname $step_number`
+`find . -iname $step_number | while read file; do to_cd "$file"; done`
 
 
 
+
+#====================================================================================
 # navigate to the folder where the *.dis is 
 
 # execute 'angle_dist_.sh' that will generate the json file for that refinemets *.dis
