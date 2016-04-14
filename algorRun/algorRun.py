@@ -2,6 +2,7 @@
 
 import re, os, sys, shutil, subprocess, time
 import numpy as np
+
 #------------------------------------------------------------------------------
 
 class search_tools():
@@ -9,6 +10,9 @@ class search_tools():
 	General search tools 
 	"""
 	def findall(self,x,y):
+		"""
+		finds all occurances x in y 
+		"""
 		s=[]
 		for i in range(0,len(y)):
 			xx=[m.start for m in re.finditer(x,y[i])]
@@ -16,6 +20,10 @@ class search_tools():
 				s.append(y[i].replace('\n',''))
 		return s
 	def findall_with_index(self,x,y):
+		"""
+		find all occurances of x in y and return it with the 
+		index
+		"""
 		s=[]
 		for i in range(0,len(y)):
 			xx=[m.start for m in re.finditer(x,y[i])]
@@ -23,18 +31,25 @@ class search_tools():
 				s.append((i,y[i].replace('\n','')))
 		return s
 	def grep_AB(self,what,from_where,how_many_lines):
+		"""
+		replicates to functionality of the GNU "grep" tool 
+		with the A of B flag.
+		It returns to line, number of lines before and after the line of interest 
+		"""
 		s=from_where
 		n=how_many_lines
-		return s[(s.index(self.findall(what,s)[-1]+'\n')+0):(s.index(self.findall(what,s)[-1]+'\n')+n)]
-		
+		return s[(s.index(self.findall(what,s)[-1]+'\n')+0):(s.index(self.findall(what,s)[-1]+'\n')+n)]		
 	def grep_index(self,what,from_where,how_many_lines):
+		"""
+		replicates the functionality of the unix shell tool "grep"
+		"""	
 		s=from_where
 		n=how_many_lines
 		return s[self.findall_with_index(what,s)[-1][0]:self.findall_with_index(what,s)[-1][0]+n]
-
 	def find_index_only(self,what,from_where):
 		"""
-		returns only the index of the occurance of "what" in the whole readline generated array of string lists 
+		returns only the index of the occurance of "what" in 
+		the whole readline generated array of string lists 
 		"""
 		s=[]
 		for i in range(0,len(from_where)):
@@ -42,8 +57,6 @@ class search_tools():
 				if len(xx)>0:
 					s.append(i)
 		return s
-
-
 	def find_exact_word(self,what,where):
 		"""
 		matches the exact keyword remaining case sencitive 
@@ -54,7 +67,6 @@ class search_tools():
 		# return the index of the exact match 
 		xx=[m.start() for m in re.finditer(ss,where)]
 		return xx
-
 	def find_file_with_extension(self,what):
 		"""
 		finds a file by it's extension in the cwd
@@ -67,7 +79,6 @@ class search_tools():
 				t+=1
 		return t
 
-#d[findall_with_index('RELIABILITY FACTORS FOR',d)[-1][0]:findall_with_index('RELIABILITY FACTORS FOR',d)[-1][0]+8]
 #------------------------------------------------------------------------------
 
 class analyze():
@@ -78,7 +89,6 @@ class analyze():
 		ahead_1='%-11.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s\n' % ('step#','a','a_err','c','c_err','vol','vol_err','w','w_err')
 		ahead_2='%-11.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s %-10.7s\n' % ('step#','Rp','Rwp','Re','Chi2','Deviance','Dev_star','Gof','Npar','Bragg_R_factor_ph1','Rf_factor_ph1')
 		f=file('results_1_lattice.txt','w')
-		#f=file('results_1_lattice.csv','w')
 		f.write(ahead_1)
 		f.close()
 		f=file('results_2_Rs.txt','w')
@@ -168,8 +178,7 @@ class analyze():
 		a=np.array([[float(c2+1),Rp,Rwp,Re,Chi2,Deviance,Dev_star,GoF,Npar,Bragg_R_factor_ph1,Rf_factor_ph1]])
 		f=file('results_2_Rs.txt','a')
 		np.savetxt(f,a,fmt='%10.4f')
-		f.close()	
-
+		f.close()
 
 
 class atomic_parameters():
@@ -211,18 +220,20 @@ class atomic_parameters():
 
 		#values change
 
-		cw=codeword.split('Biso')[0] # split the codeword 
-		cwp=search_tools().find_index_only(cw,a_middle)  #search for the index where the atom type is Ca1
+		cw=codeword.split('Biso')[0] # split the codeword
+		
+		#search for the index where the atom type is Ca1
+		cwp=search_tools().find_index_only(cw,a_middle) 
 		a_middle_ch=a_middle[cwp[0]].split()
 		a_middle_ch_code=a_middle[cwp[0]+1].split()
 
 		if val != '!':
-			a_middle_ch[5] = str(val)  				# the 6th [5] element is the Biso values 
+			a_middle_ch[5] = str(val)  			# the 6th [5] element is the Biso values 
 			changed_line='  '.join(a_middle_ch)+'\n'
 		else:
 			changed_line=a_middle[cwp[0]]
 		if code !='!':
-			a_middle_ch_code[3] =str(code)				# the 4th [3] element is the Biso code 
+			a_middle_ch_code[3] =str(code)			# the 4th [3] element is the Biso code 
 			changed_line_codeline='      '+'  '.join(a_middle_ch_code)+'\n'
 		else:
 			changed_line_codeline=a_middle[cwp[0]+1]
@@ -408,12 +419,12 @@ class atomic_parameters():
 		a_middle_ch_code=a_middle[cwp[0]+1].split()
 
 		if val != '!':
-			a_middle_ch[4] = str(val)  				# the 5th [4] element is the Biso values 
+			a_middle_ch[4] = str(val)  			# the 5th [4] element is the Biso values 
 			changed_line='  '.join(a_middle_ch)+'\n'
 		else:
 			changed_line=a_middle[cwp[0]]
 		if code !='!':
-			a_middle_ch_code[2] =str(code)				# the 3th [2] element is the Biso code 
+			a_middle_ch_code[2] =str(code)			# the 3th [2] element is the Biso code 
 			changed_line_codeline='      '+'  '.join(a_middle_ch_code)+'\n'
 		else:
 			changed_line_codeline=a_middle[cwp[0]+1]
@@ -427,7 +438,6 @@ class atomic_parameters():
 		f.writelines(a_middle[cwp[0]+2:])
 		f.writelines(post_a)
 		f.close()
-
 
 
 class displacement_parameters():
@@ -466,8 +476,9 @@ class displacement_parameters():
 				changed_line=d_middle
 			changed_line_code=changed_line.split()
 			#	
-			#this renaming is needed since the same sigle line is modified by the val and by the code 
-			# they operate one after another on the same line 
+			#this renaming is needed since the same sigle line 
+			# is modified by the val and by the code they
+			# operate one after another on the same line 
 			#
 			# code
 			if code != '!':
@@ -508,7 +519,6 @@ class displacement_parameters():
 			else:
 				changed_line=changed_line_code
 
-
 		# building back up the section
 		f=open(pcr_filename,'w')
 		f.writelines(pre_d)
@@ -528,8 +538,6 @@ def fill_arr(r):
 		a[i-1][:]=r[i].strip()[3:].split(',')
 	return a
 
-
-
 def copy_file_no_dirs_to_dir(xxx):
 	"""
 	Get the folders and files in the path and selects only the files without the folders.
@@ -538,7 +546,6 @@ def copy_file_no_dirs_to_dir(xxx):
 	def ig_f(dir,files):
 		return [f for f in files if os.path.isdir(os.path.join(dir,f))]
 	shutil.copytree(os.getcwd(),xxx,ignore=ig_f)
-
 
 def get_stepname(r_step):
 	"""
@@ -583,7 +590,6 @@ def analyse_each_step_array(r):
 	arr=np.full((4,a),'0',dtype='|S64')  # defines a string type array (dtype='|S2')
 	return arr
 
-
 def read_step_and_separate(d):
 	ns=len(findall("step",d))
 	r=[]
@@ -627,11 +633,8 @@ def scale_it_up(c0):
 	f1.writelines(pre)
 	f1.writelines(new_chi2_line)
 	f1.writelines(post)
-	f1.close()
-	
+	f1.close()	
 
-#-------------------
-#the pcrEdit for conttrol_file_scheme_2.ctrl
 def profile_parameters(c0,c1,c2,c2c,c3):
 	"""
 	c0 - pcr filename 
@@ -794,6 +797,7 @@ def profile_parameters(c0,c1,c2,c2c,c3):
 
 #------------------------------------------------
 # run_fp2k
+#------------------------------------------------
 
 def run_fp2k(pcr,dat):
 	"""
@@ -818,7 +822,6 @@ def run_fp2k(pcr,dat):
 			break
 		else:
 			#false : it's still running
-			#if [i for i in os.listdir(os.getcwd()) if i.split('.')[-1].find('new')>=0 ] >=0:  # is there *.new in dir
 			if search_tools().find_file_with_extension('new') > 0 :  # is there *.new in dir
 				#True
 				print 'Subprocess stuck here but *.new found!'
@@ -847,12 +850,13 @@ def run_fp2k(pcr,dat):
 		The program is not responding, check log file for warnings!
 		"""
 
-
 # end of run_fp2k
 #==========================================================
 
-# rename the *.new to *.pcr to continue with analysis 
 def rename_new_to_pcr(c1):
+	"""
+	rename the *.new to *.pcr to continue with analysis 
+	"""
 	new=c1.split('.')[0]+'.new'
 	while True:
 		try:
@@ -862,7 +866,6 @@ def rename_new_to_pcr(c1):
 		except OSError:
 			print "No *.new found!"
 			break
-
 
 def bgg_section(pcr_filename,bggx,bgg_val,bgg_code):
 	"""
@@ -920,10 +923,6 @@ def bgg_section(pcr_filename,bggx,bgg_val,bgg_code):
 	f.close()
 
 def step_organizer(c3):
-	a=c3
-	f=open(a,'r')
-	d=f.readlines()
-	f.close()
 	"""
 	search for the "#", assigne them a number of occurance and 
 	then exchange the whole line with a 
@@ -931,6 +930,10 @@ def step_organizer(c3):
 	syntax, 
 	where i is the number of occurance of the next #step
 	"""
+	a=c3
+	f=open(a,'r')
+	d=f.readlines()
+	f.close()
 	t=1
 	for i in range(0,len(d)):
 		if d[i].find('#')>-1:
@@ -951,6 +954,8 @@ def step_organizer(c3):
 # :      ___________________full_path_to____/algor_run.py _____ _____ ______
 #        |                                  |                  |     |     |
 # python /bin_py_classes/Algor_py_31_05_2015/algor_run.py *.pcr *.dat *.ctrl 
+#
+#------------------------------------------------------------------------------
 
 c1=sys.argv[1]  # the *pcr file
 c2=sys.argv[2]	# the *dat file
@@ -990,7 +995,7 @@ for ii in r: 			# for all elements of the r  ii is then one step
 	for i in range(0,len(aa[0])):
 		# send aa[:,i] to pcrEdit  ** change pcr after it was copied
 		# forward all element of the vector aa[:,i] 
-		print aa[:,i]
+		#print aa[:,i]
 		if aa[:,i][1].find('bgg') >=0:
 			bgg_section(c1,aa[:,i][1],aa[:,i][2],aa[:,i][3])
 		if aa[:,i][1].find('bgg') !=0:
@@ -1005,22 +1010,17 @@ for ii in r: 			# for all elements of the r  ii is then one step
 			elif aa[:,i][1].find('Zpos') >=0:
 				atomic_parameters().change_Zpos(c1,aa[:,i][1],aa[:,i][2],aa[:,i][3])
 			elif aa[:,i][1].find('Zero') >=0 or aa[:,i][1].find('SyCos') >=0 or aa[:,i][1].find('SySin') >=0:
-				displacement_parameters().displacement(c1,aa[:,i][1],aa[:,i][2],aa[:,i][3])
-	
+				displacement_parameters().displacement(c1,aa[:,i][1],aa[:,i][2],aa[:,i][3])	
 			elif aa[:,i][1].find('Scale') >=0:
 				scale_it_up(c1)
-				profile_parameters(c1,aa[:,i][0], aa[:,i][1], aa[:,i][2], aa[:,i][3]) #	
-
+				profile_parameters(c1,aa[:,i][0], aa[:,i][1], aa[:,i][2], aa[:,i][3])
 			else:
-				profile_parameters(c1,aa[:,i][0], aa[:,i][1], aa[:,i][2], aa[:,i][3]) #	
+				profile_parameters(c1,aa[:,i][0], aa[:,i][1], aa[:,i][2], aa[:,i][3]) 	
 
 	stepname=get_stepname(ii)
-	#new_not_new(c1) 
 			 # !!!!
 	run_fp2k(c1,c2)  # !!!! the pcr file name is always the same! 
    			 # !!!! even though each step changes it recursively 
-	#rename_new_to_pcr(c1)
-	#new_not_new(c1)
 	analyze().results_to_file(c1,r.index(ii))
 	copy_file_no_dirs_to_dir(stepname)
 	print "%s done!_______________________________________________________________" %stepname
