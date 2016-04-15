@@ -3,4 +3,4 @@ first upload 12-03-2016
 make documentation using sphnx 
 
 
-merge test 
+merge test 2
