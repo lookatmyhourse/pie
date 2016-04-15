@@ -23,10 +23,10 @@ starting_dir=`pwd`
 # it takes an argument ! as:
 # to_cd arch_3_1_127_1
 #
-to_cd(){ cd "$1"; }   # when writing a bash function this is equal to
+#to_cd(){ cd "$@"; }   # when writing a bash function this is equal to
 to_cd(){
-cd "$1"
-angle_dist_.sh
+cd "$@"
+/home/mnost/Documents/github/pie/algorRun/angle_dist_.sh
 cd $starting_dir
 }
 
@@ -36,11 +36,11 @@ cd $starting_dir
 # by calling: 
 # angle_dist_all.sh 26 
 step_number=$1 
-
+echo $step_number
 # find all *dis files for a certain step / step_folder
 #f=`find . -regextype posix-egrep -regex "(.*$step_number.*\.*.dis)"`
 #`find . -iname $step_number`
-`find . -iname $step_number | while read file; do to_cd "$file"; done`
+find . -iname $step_number | while read file; do to_cd "$file"; done
 
 
 
