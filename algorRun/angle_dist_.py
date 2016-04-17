@@ -82,6 +82,17 @@ for m in range(0,len(d)):
 	#print d
 	#print d[m]
 	#print m
+	
+	# put the 'angle' into the DataFrame
+
+	col_name_0     = d[0].split()[0].split(['-')[0] + '-' +d[m].split()[0].split('-')[2]	
+	col_name_0_err = col_name_0+'err'
+	val_err_0      = clean_std_formatting(d[[m].split()[1]
+	df.loc[row_name,col_name_0]=val_err_0[0]
+	df.loc[row_name,col_name_0]=val_err_0[1]	
+
+	# put there 'distances' into the DataFrame
+
 	col_name_1 = d[m].split()[0].split('-')[0]+ '-' +d[m].split()[0].split('-')[1]
 	col_name_1_err = col_name_1+'_err'
 	val_err_1 = clean_std_formatting(d[m].split()[2])
