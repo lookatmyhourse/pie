@@ -48,7 +48,7 @@ find . -iname $step_number | while read file; do to_cd "$file"; done
 
 
 
-# find all *.json files copy them to the root, open in python and merge them 
+# find all *.json files copy them to the 'mother folder'
 # find . -regextype posix-egrep -regex '(.*step_25.*\.*json)' -exec cp '{}' . \;
 find . -regextype posix-egrep -regex '(.*'$step_number'.*\.*json)' -exec cp '{}' . \;
 
@@ -63,7 +63,7 @@ find . -regextype posix-egrep -regex '(.*'$step_number'.*\.*json)' -exec cp '{}'
 
 # repeat for all subfolders and all *dis files 
 
-# find all *.json files copy them to the root, open in python and merge them 
+# find all *.json files copy them to the 'mother folder', open in python and merge them 
 
 
 
