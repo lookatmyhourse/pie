@@ -19,4 +19,7 @@ jsonlist=[i for i in os.listdir(os.getcwd()) if i.split('.')[-1]=='json']
 
 
 for i in jsonlist:
+	df=pa.read_json(i)
+
+pa.concat([df0,df1])	
 		
