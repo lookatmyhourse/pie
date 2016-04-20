@@ -85,7 +85,7 @@ for m in range(0,len(d)):
 	
 	# put the 'angle' into the DataFrame
 
-	col_name_0     = d[0].split()[0].split('-')[0] + '-' +d[m].split()[0].split('-')[2]	
+	col_name_0     = d[0].split()[0].split('-')[0] + '-' +d[m].split()[0].split('-')[2]+'_angle'	
 	col_name_0_err = col_name_0+'err'
 	val_err_0      = clean_std_formatting(d[m].split()[1])
 	df.loc[row_name,col_name_0]=val_err_0[0]
