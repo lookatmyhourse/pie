@@ -996,7 +996,7 @@ for ii in r: 			# for all elements of the r  ii is then one step
 	for i in range(0,len(aa[0])):
 		# send aa[:,i] to pcrEdit  ** change pcr after it was copied
 		# forward all element of the vector aa[:,i] 
-		#print aa[:,i]
+		print aa[:,i]
 		if aa[:,i][1].find('bgg') >=0:
 			bgg_section(c1,aa[:,i][1],aa[:,i][2],aa[:,i][3])
 		if aa[:,i][1].find('bgg') !=0:
