@@ -976,7 +976,8 @@ r=read_step_and_separate(d)
 if os.path.isdir('_refinements')==False:
 	os.mkdir('_refinements')
 
-result_folder='./_refinements/'+c3.strip()[:-5]+'_'+c2.strip()[:-4]
+
+result_folder='./_refinements/'+c2.strip()[:-4]
 
 # Copy ONLY the pcr,ctrl, irf (if exists) and the CURRENT DATAFILE to the "redult_folfer"
 os.mkdir(result_folder)
