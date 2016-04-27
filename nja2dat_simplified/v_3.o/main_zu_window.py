@@ -64,7 +64,7 @@ class GUIForm(QtGui.QMainWindow):
 		self.ui.textEdit.setText(data)
 	def nja2dat(self):
 		f = open(self.fname, 'r')
-		lines=f.readlines()#[22:]									 #header cut out point													#######
+		lines=f.readlines()
 		f.close()
 		
 		self.twotheta=[]
@@ -82,7 +82,7 @@ class GUIForm(QtGui.QMainWindow):
 		for i in range(0,len(lines)):
 			self.twotheta.append(Decimal(lines[i][0:10]))
 			#self.intensity.append(Decimal(lines[i][11:])*1000)		 #for counts per second
-			self.intensity.append(int(lines[i][11:-3])) 				 #other choice for time												########
+			self.intensity.append(int(lines[i][11:-3])) 				 #other choice for time
 			while self.twotheta[i]<Decimal('60.0000'):
 				self.twotheta_corr.append(Decimal(self.twotheta[i]-(a1-a2*self.twotheta[i])))
 				self.twotheta_dat.append(Decimal(self.twotheta[i]))
@@ -99,7 +99,8 @@ class GUIForm(QtGui.QMainWindow):
 		self.last_point=float(max(self.twotheta_corr_list))
 		self.lent=len(self.twotheta_corr_list)
 		#self.xnew=linspace(self.first_point,self.last_point,self.lent)  #IMPORTANT USE ARANGE to get eq pointdistances
-		stepsize=0.0065																													     #######
+		#stepsize=0.0065	
+		stepsize=0.013
 		self.xnew=arange(self.first_point,self.last_point,stepsize)
 		self.twotheta_corr_list_floats=[]
 		for i in range(0,self.lent):
@@ -115,7 +116,7 @@ class GUIForm(QtGui.QMainWindow):
 		self.fl_spline=splev(self.xnew,tck,der=0)
 		print "Interpolation successful!"
 		
-	#creating the file of the interpolation 
+		#creating the file of the interpolation 
 		self.newfilename2=self.fname[0:-4]+'_corr_interp_spline.dat'
 		f1=open(self.newfilename2,'w')
 		for i in range(0,self.lent):
