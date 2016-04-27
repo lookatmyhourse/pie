@@ -1,5 +1,6 @@
 # -*- coding: utf8 -*-
 import os,sys
+from numpy import arange
 #from pylab import *
 from decimal import *
 from scipy.interpolate import splrep
