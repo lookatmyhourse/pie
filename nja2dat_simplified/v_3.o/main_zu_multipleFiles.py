@@ -1,15 +1,15 @@
 # -*- coding: utf8 -*-
 import os,sys
-from pylab import *
+#from pylab import *
 from decimal import *
-from scipy.interpolate import splrep #interpolate
+from scipy.interpolate import splrep
 from scipy.interpolate import splev
 from operator import sub
 from scipy.optimize import curve_fit
 
-def dependencies_for_myprogram():
-    from scipy.sparse.csgraph import _validation
-
+#def dependencies_for_myprogram():
+#    from scipy.sparse.csgraph import _validation
+#
 	
 def nja2dat(fname):
 	#fixed values for the calculation
@@ -30,9 +30,7 @@ def nja2dat(fname):
 
 	getcontext().prec = 5
 	for i in range(0,len(lines)):
-	#	twotheta.append(Decimal(lines[i][0:10]))
 		twotheta.append(Decimal(lines[i].split()[0]))
-	#	intensity.append(int(lines[i][11:-3])) 			 
 		intensity.append(int(lines[i].split()[1])) 			 
 		while twotheta[i]<Decimal('60.0000'):
 			twotheta_corr.append(Decimal(twotheta[i]-(a1-a2*twotheta[i])))
@@ -80,30 +78,14 @@ def apply_peak_pos_correction():
 	folder. 
 	Execute at the current folder where the '_data_files' is a subfolder
 	"""
-	#start_time=time.strftime('%D %H:%M:%S')
-	#get the path of the current folder
 	mother_folder=os.getcwd()
-	
 	#list out the content of the data_files folder 
 	dat=os.listdir('./_data_files/')
 	#change the working folder to the _data_files
 	os.chdir('_data_files')
-	#
-	#c=0
-	for i in dat:
-	#	c=c+1
-		nja2dat(i)
-		#t='./_data_files/'+i
-		#shutil.copy(t,os.getcwd())
-#		run_this="algorRun.py "+pcr[0]+' '+i+' '+ctrl[0]
-#		a=subprocess.Popen(run_this,shell=True,stdout=None)
-#		if c==n:
-#			a.wait()
-#			c=0
-#	a.wait()
-#	[os.remove(i) for i in dat]
-	#b=time.strftime('%D %H:%M:%S')
-	#print 'start %s    end     %s' % (start_time,b)
+	[nja2dat(i) for i in dat]
+#	for i in dat:
+#		nja2dat(i)
 
 	#get back to the mother folder
 	os.chdir(mother_folder)
@@ -111,7 +93,4 @@ def apply_peak_pos_correction():
 
 if __name__ == "__main__":
 	apply_peak_pos_correction()	
-#    app = QtGui.QApplication(sys.argv)
-#    myapp = GUIForm()
-#    myapp.show()
 #    sys.exit(app.exec_())
