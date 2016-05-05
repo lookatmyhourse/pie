@@ -57,7 +57,7 @@ find . -regextype posix-egrep -regex '(.*'$step_number'.*\.*json)' -exec cp '{}'
 #====================================================================================
 # navigate to the folder where the *.dis is 
 
-# execute 'angle_dist_.sh' that will generate the json file for that refinemets *.dis
+# execute 'angle_dist_.sh' that will generate the json file for that refinements *.dis
 
 # get back to root folder 
 

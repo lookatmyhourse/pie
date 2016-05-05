@@ -15,13 +15,13 @@ import time
 
 def run_multiple_files(n):
 	"""
-	n is the number of the simultaneously runnig refinements
+	n is the number of the simultaneously running refinements
 
 	this is due to the subprocess.Popen() and .wait() methods
-	to use more resources in order to speed up the whole refinenemt 
+	to use more resources in order to speed up the whole refinement 
 	process this number can be more then n=1 i which case the code will make 
 	work through one dataset AFTER the other. 
-	However to use the cpu and memory resources more, by giving n=5 or n=10, the
+	However to use the CPU and memory resources more, by giving n=5 or n=10, the
 	subprocess.Popne will forward 5 or 10 request to the shell.
 	"""
 	start_time=time.strftime('%D %H:%M:%S')

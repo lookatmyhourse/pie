@@ -11,7 +11,7 @@ class search_tools():
 	"""
 	def findall(self,x,y):
 		"""
-		finds all occurances x in y 
+		finds all occurrences x in y 
 		"""
 		s=[]
 		for i in range(0,len(y)):
@@ -21,7 +21,7 @@ class search_tools():
 		return s
 	def findall_with_index(self,x,y):
 		"""
-		find all occurances of x in y and return it with the 
+		find all occurrences of x in y and return it with the 
 		index
 		"""
 		s=[]
@@ -41,14 +41,14 @@ class search_tools():
 		return s[(s.index(self.findall(what,s)[-1]+'\n')+0):(s.index(self.findall(what,s)[-1]+'\n')+n)]		
 	def grep_index(self,what,from_where,how_many_lines):
 		"""
-		replicates the functionality of the unix shell tool "grep"
+		replicates the functionality of the UNIX shell tool "grep"
 		"""	
 		s=from_where
 		n=how_many_lines
 		return s[self.findall_with_index(what,s)[-1][0]:self.findall_with_index(what,s)[-1][0]+n]
 	def find_index_only(self,what,from_where):
 		"""
-		returns only the index of the occurance of "what" in 
+		returns only the index of the occurrence of "what" in 
 		the whole readline generated array of string lists 
 		"""
 		s=[]
@@ -59,11 +59,11 @@ class search_tools():
 		return s
 	def find_exact_word(self,what,where):
 		"""
-		matches the exact keyword remaining case sencitive 
+		matches the exact keyword remaining case sensitive 
 		also returns of the index of the first character of the 'what' word 
 		
 		"""
-		ss='\\b'+str(what)+'\\b' # the \\b are bounderies
+		ss='\\b'+str(what)+'\\b' # the \\b are boundaries
 		# return the index of the exact match 
 		xx=[m.start() for m in re.finditer(ss,where)]
 		return xx
@@ -476,7 +476,7 @@ class displacement_parameters():
 				changed_line=d_middle
 			changed_line_code=changed_line.split()
 			#	
-			#this renaming is needed since the same sigle line 
+			#this renaming is needed since the same single line 
 			# is modified by the val and by the code they
 			# operate one after another on the same line 
 			#
@@ -613,11 +613,11 @@ def scale_it_up(c0):
 	is higher than 1.2* chi2 of the last refinement
 	When the scale changes, the chi2 will rise and dependent on the 
 	number of iterations the refinement may not be accepted due
-	to this restiction. To overcome this situation the second line 
+	to this restriction. To overcome this situation the second line 
 	in the pcr file is overwritten. 
 	"""
 	chi2_line='! Current global Chi2 '    
-	# the above line has problems when the string contains parentesis a period (dot) 
+	# the above line has problems when the string contains parentheses a period (dot) 
 	# it causes problems for the search_tools().find_index_only method!
 	f=open(c0)
 	lines=f.readlines()  #*.pcr
@@ -644,12 +644,12 @@ def profile_parameters(c0,c1,c2,c2c,c3):
 	c3-code		c4=! or 9.9999
 
 		edited on 4th.Feb.2016
-	the previous state of the code was just hovering above cathastrofic, there were serious bugs
+	the previous state of the code was just hovering above catastrophic, there were serious bugs
 	inside 
-	Now the old code is fixed, but this section could use a total rewriteing and reduction
+	Now the old code is fixed, but this section could use a total rewriting and reduction
 	new name for the method  profile_parameters 		
 	
-	the lines section should be previously cut for the section inbetween the possible multiple 
+	the lines section should be previously cut for the section in-between the possible multiple 
 	phases 
 
 	"""
@@ -679,7 +679,7 @@ def profile_parameters(c0,c1,c2,c2c,c3):
 	#_1__find all the lines that contain the codeword ($c2)
 	#---------
 
-	# returns a list where the first element the position of the kewword, the second element is the line index where the keyword is 
+	# returns a list where the first element the position of the keyword, the second element is the line index where the keyword is 
 	line_of_interest=[(search_tools().find_exact_word(c2,line[i]),i) for i in range(0,len(line)) if search_tools().find_exact_word(c2,line[i]) != [] ] 
 	o=line_of_interest[0][0][0] # the starting index of the keyword
 	sel=line_of_interest[0][1]  # the index of the line where the keyword resides 
@@ -692,10 +692,10 @@ def profile_parameters(c0,c1,c2,c2c,c3):
 
 	#---------
 	#_3__match the line below using 'sel', and count till the 
-	#    whitespaces 
-	#    a,b are the indexes in the string for the first occurance
-	#    of the whitespace; they are found separatelly, since they
-	#    are not nessesarelly the same character away from the codeword
+	#    whitespace 
+	#    a,b are the indexes in the string for the first occurrence
+	#    of the whitespace; they are found separately, since they
+	#    are not necessarily the same character away from the codeword
 	#    in one line above 
 	#    when a(b) is found 'break'-out from the loop, don't seek further
 	#---------
@@ -801,15 +801,15 @@ def profile_parameters(c0,c1,c2,c2c,c3):
 
 def run_fp2k(pcr,dat):
 	"""
-	the above time.sleep is chosen insted of process.wait() for the reason of 
+	the above time.sleep is chosen instead of process.wait() for the reason of 
 	considering the case of a stuck process, where a wait command would simply 
 	wait till eternity.
 	a frequent process.poll() would tell if the command is still running or it
 	is finished. Evaluating the poll()'s output can hint for how to deal with 
-	the stuck process. fortunatelly fullrpof does write the *.new file before 
-	it stuckes to this could be used as a cue for a process.kill() call, which 
-	terminated the process and allows the code to continue or the retrun a 
-	propriate error message for the user, or just simply exit the code 
+	the stuck process. Fortunately fullrpof does write the *.new file before 
+	it stuck to this could be used as a cue for a process.kill() call, which 
+	terminated the process and allows the code to continue or to return a 
+	appropriate error message for the user, or just simply exit the code 
 	"""
 	process=subprocess.Popen(['fp2k',pcr,dat,'log'],stdout=subprocess.PIPE)
 	marker=0
@@ -825,13 +825,13 @@ def run_fp2k(pcr,dat):
 			if search_tools().find_file_with_extension('new') > 0 :  # is there *.new in dir
 				#True
 				print 'Subprocess stuck here but *.new found!'
-				print 'Program will terminate here. Check log for the type of warning occured!'
+				print 'Program will terminate here. Check log for the type of warning occurred!'
 				process.kill()
 				#marker=0
 				sys.exit()
 				break
 			else:
-				# case of runnig(stuck) program but no *.new file 
+				# case of running(stuck) program but no *.new file 
 				print 'Subprocess running, but there is no *.new file!'
 				marker=1
 				pass
@@ -839,7 +839,7 @@ def run_fp2k(pcr,dat):
 		#True
 		if search_tools().find_file_with_extension('new') > 0 :  # is there *.new in dir
 			#True: mvvv
-			print 'Refinement generated a *.new file. pcr file overwriten by *.new'
+			print 'Refinement generated a *.new file. pcr file overwritten by *.new'
 			os.rename(pcr.split('.')[0]+'.new',pcr)
 		else:
 			#pass
@@ -924,11 +924,11 @@ def bgg_section(pcr_filename,bggx,bgg_val,bgg_code):
 
 def step_organizer(c3):
 	"""
-	search for the "#", assigne them a number of occurance and 
+	search for the "#", assign them a number of occurrence and 
 	then exchange the whole line with a 
 	"#step_"+i 
 	syntax, 
-	where i is the number of occurance of the next #step
+	where i is the number of occurrence of the next #step
 	"""
 	a=c3
 	f=open(a,'r')
@@ -979,7 +979,7 @@ if os.path.isdir('_refinements')==False:
 
 result_folder='./_refinements/'+c2.strip()[:-4]
 
-# Copy ONLY the pcr,ctrl, irf (if exists) and the CURRENT DATAFILE to the "redult_folfer"
+# Copy ONLY the pcr,ctrl, irf (if exists) and the CURRENT DATAFILE to the "result_folder"
 os.mkdir(result_folder)
 shutil.copy(c1,result_folder)
 shutil.copy(c2,result_folder)

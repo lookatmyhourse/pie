@@ -25,7 +25,7 @@ d=`grep 'Atm-1.*Atm-2.*Atm-3' *.dis | awk '{print " "$6" "$9" "$12}' > distances
 # merge the two files 'angles.txt' and 'distances.txt' line by line
 `paste angle.txt distances.txt > ab.txt`
 
-# remove dupliates but leave one of it, and save it to a file 
+# remove duplicates but leave one of it, and save it to a file 
 `awk '!x[$0]++' ab.txt > $a_d_filename`
 
 # run the python code to extract relevant data 
