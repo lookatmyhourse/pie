@@ -16,9 +16,9 @@ f.close()
 def check_decimal(d):
 	"""
 	Practically impossible to do it this way, 
-	1.530 will be indistinwichable from 1.533
-	round(mod()) combination is also unfluitful 
-	Insted treat the standard deviation notation 
+	1.530 will be indistinguishable from 1.533
+	round(mod()) combination is also unfruitful 
+	Instead treat the standard deviation notation 
 	as a string, like in the :
 
 	check_decimal_as_string()
