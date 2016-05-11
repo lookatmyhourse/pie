@@ -31,7 +31,7 @@ starting_dir=`pwd`
 #to_cd(){ cd "$@"; }   # when writing a bash function this is equal to
 to_cd(){
 cd "$@"
-/home/mnost/Documents/github/pie/algorRun/angle_dist_.sh
+/home/mare/calcus/_Arch_HCOOH/algorRun/angle_dist_.sh
 cd $starting_dir
 }
 

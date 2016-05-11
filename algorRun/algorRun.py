@@ -943,10 +943,6 @@ def step_organizer(c3):
 	f.writelines(d)
 	f.close()
 
-
-
-
-
 #------------------------------------------------------------------------------
 #START_MAIN
 # we are at the main_folder "cwd" 
@@ -992,7 +988,8 @@ os.chdir(result_folder)
 # and we navigated ourselves there 
 analyze().create_result_files()
 for ii in r: 			# for all elements of the r  ii is then one step
-	aa=fill_arr(ii)		# fill arrays with codewords 
+	aa=fill_arr(ii)		# fill arrays with codewords
+ 	print "Starting ____%s_of_%s ________________________________________________________" %(stepname,c2.strip()[:-4])
 	for i in range(0,len(aa[0])):
 		# send aa[:,i] to pcrEdit  ** change pcr after it was copied
 		# forward all element of the vector aa[:,i] 
@@ -1024,4 +1021,4 @@ for ii in r: 			# for all elements of the r  ii is then one step
    			 # !!!! even though each step changes it recursively 
 	analyze().results_to_file(c1,r.index(ii))
 	copy_file_no_dirs_to_dir(stepname)
-	print "%s done!_______________________________________________________________" %stepname
+	print "%s of %s done!_______________________________________________________________" %(stepname,c2.strip()[:-4])
