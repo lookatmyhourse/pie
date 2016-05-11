@@ -1,0 +1,11 @@
+20_10_2015_LaB6 ireso    1
+!       JOBT
+JOBT XR
+!         Lambda_1    Lambda_2    Ratio
+WAVE       1.5406      0.0000      0.0000
+!   Geometry Type
+GEOM BRAG
+!         S_L         S_D
+ASYM       0.0045      0.0045
+!    U-inst      V-inst      W-inst      X-inst     Y-inst     Z-inst
+     0.00676    -0.01095     0.00613     0.03710     0.00000     0.00000

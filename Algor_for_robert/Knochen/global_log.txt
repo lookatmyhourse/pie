@@ -1,0 +1,1540 @@
+['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement ['1' 'bgg1' '0' '1']
+Refinement done under 0 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Refinement done under 0 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess ['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_18 done!__________________________________________________done under 1 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_23 done!_______________________________________________________________
+['2' 'Scale' '1.0000E-03' '1']
+1.0000E-03 
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_24 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_25 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_26 done!_______________________________________________________________
+running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_23 done!_______________________________________________________________
+['2' 'Scale' '1.0000E-03' '1']
+1.0000E-03 
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_24 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_25 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_26 done!_______________________________________________________________
+_____________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_23 done!_______________________________________________________________
+['2' 'Scale' '1.0000E-03' '1']
+1.0000E-03 
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_24 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_25 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_26 done!_______________________________________________________________
+['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement ['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess ['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 secrunning, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess stuck here but *.new found!
+Program will terminate here. Check log for the type of warning occurred!
+onds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess stuck here but *.new found!
+Program will terminate here. Check log for the type of warning occurred!
+done under 1 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_23 done!_______________________________________________________________
+['2' 'Scale' '1.0000E-03' '1']
+1.0000E-03 
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_24 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_25 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_26 done!_______________________________________________________________
+['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement ['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement ['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_16 done!_______________________________________________________________
+['1' 'o2Xpos' '!' '1']
+['1' 'o2Ypos' '!' '1']
+['1' 'o2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_17 done!_______________________________________________________________
+['1' 'o3Xpos' '!' '1']
+['1' 'o3Ypos' '!' '1']
+['1' 'o3Zpos' '!' '1']
+Subprocess running, but thedone under 1 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_23 done!_______________________________________________________________
+['2' 'Scale' '1.0000E-03' '1']
+1.0000E-03 
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_24 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_25 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_26 done!_______________________________________________________________
+done under 1 seconds!
+Refinement ended normally.
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_23 done!_______________________________________________________________
+['2' 'Scale' '1.0000E-03' '1']
+1.0000E-03 
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_24 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_25 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_26 done!_______________________________________________________________
+re is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement ended normally.
+step_18 done!_______________________________________________________________
+['1' 'o4Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement generated a *.new file. pcr file overwritten by *.new
+step_19 done!_______________________________________________________________
+['1' 'ca2Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement generated a *.new file. pcr file overwritten by *.new
+step_20 done!_______________________________________________________________
+['1' 'p1Occ' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement generated a *.new file. pcr file overwritten by *.new
+step_21 done!_______________________________________________________________
+['2' 'a' '!' '1']
+Subprocess running, but there is no *.new file!
+Subprocess running, but there is no *.new file!
+Refinement done under 2 seconds!
+Refinement generated a *.new file. pcr file overwritten by *.new
+step_22 done!_______________________________________________________________
+['2' 'c' '!' '1']
+Refinement done under 0 seconds!
+Refinement ended normally.
+['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
+['1' 'bgg1' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_1 done!_______________________________________________________________
+['1' 'bgg2' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_2 done!_______________________________________________________________
+['1' 'bgg3' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_3 done!_______________________________________________________________
+['1' 'bgg4' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_4 done!_______________________________________________________________
+['1' 'bgg5' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_5 done!_______________________________________________________________
+['1' 'bgg6' '0' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_6 done!_______________________________________________________________
+['1' 'SyCos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_7 done!_______________________________________________________________
+['1' 'a' '!' '1']
+['1' 'c' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_8 done!_______________________________________________________________
+['1' 'h2' '!' '991.00']
+['1' 'k2' '!' '981.0']
+['1' 'l2' '!' '971.00']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_9 done!_______________________________________________________________
+['1' 'X' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_10 done!_______________________________________________________________
+['1' 'ca1Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_11 done!_______________________________________________________________
+['1' 'ca2Biso' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_12 done!_______________________________________________________________
+['1' 'ca1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_13 done!_______________________________________________________________
+['1' 'ca2Xpos' '!' '1']
+['1' 'ca2Ypos' '!' '1']
+['1' 'ca2Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_14 done!_______________________________________________________________
+['1' 'p1Xpos' '!' '1']
+['1' 'p1Ypos' '!' '1']
+['1' 'p1Zpos' '!' '1']
+Subprocess running, but there is no *.new file!
+Refinement done under 1 seconds!
+Refinement ended normally.
+step_15 done!_______________________________________________________________
+['1' 'o1Xpos' '!' '1']
+['1' 'o1Ypos' '!' '1']
+['1' 'o1Zpos' '!' '1']
